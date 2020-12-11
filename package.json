@@ -1,0 +1,19 @@
+{
+  "name": "SOLID_API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MiguelS007/SOLID_API.git",
+  "author": "miguel <miguelsodre007@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.2"
+  }
+}
